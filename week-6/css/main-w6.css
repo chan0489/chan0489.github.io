@@ -1,3 +1,7 @@
+html {
+    font-size:16px
+}
+
 body {
     color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,6 +33,7 @@ nav ul {
 nav ul a {
     color: darkslategray;
     text-decoration: none;
+    font-size:1.5rem;
 }
 
 .orange-link {
@@ -41,15 +46,16 @@ nav ul a {
     background: orange url("../images_week-6/bread.jpg") no-repeat center center /cover;
     background-size: cover;
     color: #ccc;
-    font: size 24px;
-    padding: 20px;
+    font: size 1.5rem;
+    padding: 1em;
+    /*width:50%;*/
 }
 #treatofweek ul li:nth-child(n){
     background-color: transparent;
 }
 
 .large-text {
-    font-size: 20px;
+    font-size:1.25rem;
 }
 
 article>p {
@@ -120,18 +126,19 @@ aside ul li:first-child {
 section ol li:last-child {
     font-weight: bold;
 }
-
+/*
 dl ul li:nth-child(odd) {
     font-weight: bold;
 }
 
 dl ul li:nth-child(even) {
     background-color: white;
+    font-weight: bold
 }
 
 dl ul li:nth-child(2n+1) {
     text-decoration: underline;
-}
+}*/
 
 footer {
     background-color: #d5826c;
