@@ -1,6 +1,10 @@
 body {
     color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images_week-6/white_brick_wall.png");
+
+    /* background-repeat: no-repeat;
+    background-size: cover;*/
 }
 
 h1 {
@@ -34,7 +38,14 @@ nav ul a {
 }
 
 #treatofweek {
-    background-color: orange;
+    background: orange url("../images_week-6/bread.jpg") no-repeat center center /cover;
+    background-size: cover;
+    color: #ccc;
+    font: size 24px;
+    padding: 20px;
+}
+#treatofweek ul li:nth-child(n){
+    background-color: transparent;
 }
 
 .large-text {
@@ -45,9 +56,9 @@ article>p {
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5;
-    text-transform:lowercase;
-    text-align:center;
-    letter-spacing:2px;
+    text-transform: lowercase;
+    text-align: center;
+    letter-spacing: 2px;
     font-style: it
 }
 
@@ -122,16 +133,15 @@ dl ul li:nth-child(2n+1) {
     text-decoration: underline;
 }
 
-footer{
-background-color: #d5826c;
-padding:20px;
+footer {
+    background-color: #d5826c;
+    padding: 20px;
 }
-body footer{
-background-color: rgb(0,4,0);
+
+.site-footer {
+    background-color: cornflowerblue;
 }
-.site-footer{
-background-color:cornflowerblue;
-}
-footer.site-footer{
-background-color:rgba(7, 255, 152, 0.2);
+
+footer.site-footer {
+    background-color: rgba(0, 0, 0, 0.2);
 }
