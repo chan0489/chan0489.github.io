@@ -73,6 +73,11 @@ a[href="#treatofweek"] {
 
 */
 
+/*
+class = .class-name
+id = #id-name
+*/
+
 nav ul a,
 nav ul a:link,
 nav ul a:visited {
