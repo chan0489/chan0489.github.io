@@ -1,0 +1,314 @@
+/*-------------------------------------------*\
+    Name : Final Exam Webpage Mockup Assignment
+    Purpose : CSS page for personal version of Final Web Page mockup
+                for the class 
+                MTM-6130
+                Responsive Web Design
+    Author : Hoi Yan Chan
+    Date due : March 09, 2021
+    Copyright : (c) Hoi Yan Chan, 2021
+\*-------------------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET */
+
+/*  #c78c06 #ffe6ac #222 white */
+
+
+@media screen and (max-width: 1200px) {}
+
+html {
+	background: red;
+}
+
+@media (max-width:760px) {
+	html {
+		background: white;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: bold;
+}
+	.banner {
+		background-color: black;
+		color: white;
+
+	}
+
+	/* styling for section 1 */
+	.section_1 {
+		background: #ffe6ac;
+		padding: 10px;
+		margin: 5px;
+	}
+
+	.banner_button {
+		background-color: #c78c06;
+		border: none;
+		color: black;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+
+	.s1_img {
+		display: block;
+		width: 90%;
+		padding: 5px;
+	}
+
+	/* styling for section 2 */
+	.section_2 {
+		background: white
+	}
+
+	.s2_button {
+		background-color: #222;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+
+	.section_2 .block {
+		background-color: #ffe6ac;
+		margin: 5px;
+		padding: 10px;
+	}
+
+	.section_2 .s2_h2 {
+		background-color: white;
+
+	}
+
+	.section_2 .b {
+		background-color: black;
+	}
+
+	/* styling for section 3 */
+	.section_3 {
+		background-image: url("../images//vision.jpg");
+
+	}
+
+	.s3_button {
+		background-color: #222;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+
+	/* styling for section 4 */
+	.section_4 {
+		background: white
+	}
+
+	.section_4 .s4_txt {
+		background: #ffe6ac;
+		margin-bottom: 10px;
+		padding: 10px;
+	}
+
+
+
+	.s4_table {
+		border-collapse: collapse;
+		border: 1px solid black;
+		padding: 15px;
+		margin: 10px;
+	}
+
+	.s4_th {
+		background: #ffe6ac;
+		border-collapse: collapse;
+		border: 1px solid black;
+		padding: 15px;
+		margin: 10px;
+	}
+
+	/* styling for section 5 */
+	.section_5 {
+		background: white
+	}
+
+	.section_5 .s5_button {
+		background-color: #222;
+		border: none;
+		color: #c78c06;
+		padding: 5px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+
+	/* styling for footer */
+	footer {
+		background-color: black;
+		color: #c78c06;
+	}
+
+	.footer_p {
+		line-height: 2;
+	}
+
+}
