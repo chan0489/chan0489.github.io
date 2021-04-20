@@ -246,14 +246,6 @@ ul {
 
 /* styling for banner */
 
-.b1_i{
-	position: absolute;
-	left:0px;
-	width: 100%;
-	z-index: -1;
-	margin-top: -100px;
-}
-
 .b1 {
 	background-image: url('../../images/main-banner.jpg');
     background-repeat: no-repeat;
@@ -289,10 +281,6 @@ line-height: 1.5;
 padding: 15px;
 }
 
-.b1 i {
-padding-left: 10px;
-}
-
 .banner_button {
 background-color: #c78c06;
 border: 1px solid #c78c06;
@@ -314,6 +302,7 @@ white-space: nowrap;
 .section_1 {
 background: #ffe6ac;
 padding: 10px;
+	display: flex;
 }
 
 .s1_h2 {
@@ -325,8 +314,9 @@ padding-bottom: 15px;
 }
 
 .s1_img {
-width: 100%;
-height: 100%;
+	width: 100%;
+
+	
 }
 
 .s1_p {
@@ -346,7 +336,6 @@ padding: 15px;
 .field_1 .block:nth-child(1) {
 	width: calc(50%);
 	order: 1;
-	background: white;
 
   }
   .field_1 .block:nth-child(2) {
@@ -507,7 +496,7 @@ z-index: -1;
 
 .s3_button {
 background-color: #222;
-border: 1px solid white;
+border: 1px solid #ffe6ac;
 color: white;
 padding: 25px 30px;
 text-align: center;
@@ -991,7 +980,7 @@ padding-right: 80px;
 
 .s3_button {
 	background-color: #222;
-	border: 1px solid white;
+	border: 1px solid #ffe6ac;
 	color: white;
 	padding: 25px 30px;
 	text-align: center;
